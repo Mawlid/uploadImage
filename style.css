@@ -1,0 +1,15 @@
+/*styling*/
+body{
+    background: red;
+}
+.uploadcare-widget-button-open{
+    background: slategrey;
+}
+
+.uploadcare-widget-dragndrop-area{
+    border-width: 3px;
+}
+uploadcare-widget-circle{
+    color: #fff;
+    border-color: #000;
+}

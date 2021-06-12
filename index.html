@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>upload-image</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="store.php" method="post">
+        <div>
+            <input 
+            type = "hidden"
+            name = "avatar"
+            role = "uploadcare-uploader"
+            data-clearable = true
+            data-crop ="free"
+            >
+        </div>
+        <input type="submit" value="save">
+    </form>
+
+    <script>
+        UPLOADCARE_LOCALE   = "de";
+        UPLOADCARE_live     = "false";
+        UPLOADCARE_PUBLIC_KEY = "XXXXX"
+        UPLOADCARE_TABS = "file url"
+    </script>
+    <script   
+    src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js">
+    </script>
+</body>
+</html>
